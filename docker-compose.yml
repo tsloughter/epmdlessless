@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+
+  node_a:
+    container_name: node_a
+    hostname: node_a
+    build: .
+    environment:
+      - ERL_DIST_PORT=8001
+
+  node_b:
+    container_name: node_b
+    hostname: node_b
+    build: .
+    environment:
+      - ERL_DIST_PORT=8001
+
+  node_c:
+    container_name: node_c
+    hostname: node_c
+    build: .
+    environment:
+      - ERL_DIST_PORT=8001

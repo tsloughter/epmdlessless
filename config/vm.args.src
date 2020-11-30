@@ -1,9 +1,6 @@
--sname epmdlessless
+-sname epmdlessless@${HOSTNAME}
 
 -setcookie epmdlessless_cookie
-
--start_epmd false
--erl_epmd_port 8004
 
 +K true
 +A30
