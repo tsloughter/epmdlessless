@@ -1,7 +1,7 @@
 epmdlessless
 =====
 
-This example project is part of blog post [Running Erlang Releases without EPMD on OTP 23.1+]().
+This example project is part of blog post [Running Erlang Releases without EPMD on OTP 23.1+](https://blog.erlware.org/epmdlessless/).
 
 ## Build and Run
 
