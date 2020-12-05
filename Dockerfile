@@ -1,4 +1,5 @@
-FROM erlang:23.1.3 as builder
+# FROM erlang:23.1.3 as builder
+FROM erlang@sha256:d7d7659837ecd3d2cec6be6a18d507d1e0a0784331ac2ffdaa4adef7da475c2f as builder
 
 WORKDIR /app/src
 ENV REBAR_BASE_DIR /app/_build

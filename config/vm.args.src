@@ -1,4 +1,4 @@
--sname epmdlessless@${HOSTNAME}
+-sname epmdlessless
 
 -setcookie epmdlessless_cookie
 
